@@ -899,3 +899,338 @@ footer {
         padding: 20px;
     }
 }
+
+/* ==========================================
+   SKILLS PAGE - ADDITIONAL PROFESSIONAL DESIGN
+========================================== */
+
+.skills-introduction {
+    max-width: 1200px;
+    margin: auto;
+    padding: 75px 30px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 55px;
+    align-items: center;
+}
+
+.skills-intro-content h2 {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.skills-intro-content h2 span,
+.section-title h2 span,
+.experience-content h2 span,
+.career-section h2 span {
+    color: #B68AE0;
+}
+
+.skills-intro-content p:not(.small-title) {
+    color: #D8D1DF;
+    font-size: 13px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+.qualification-box {
+    padding: 30px;
+    background: #1D1029;
+    border: 1px solid rgba(182,138,224,0.22);
+    border-radius: 13px;
+}
+
+.qualification-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.qualification-item > span {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #321344;
+    color: #B68AE0;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.qualification-item h3 {
+    font-size: 16px;
+}
+
+.qualification-item p {
+    color: #D8D1DF;
+    font-size: 12px;
+}
+
+.qualification-item small {
+    color: #B68AE0;
+    font-size: 11px;
+}
+
+.qualification-divider {
+    height: 1px;
+    background: rgba(182,138,224,0.2);
+    margin: 25px 0;
+}
+
+.technical-skills-section {
+    padding: 75px 30px;
+    background: #100B16;
+    border-top: 1px solid rgba(182,138,224,0.15);
+}
+
+.section-title {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+.section-title h2,
+.experience-content h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.section-title > p:not(.small-title) {
+    color: #D8D1DF;
+    font-size: 13px;
+}
+
+.technical-skills-grid {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+}
+
+.technical-card {
+    padding: 28px;
+    min-height: 290px;
+    background: #1D1029;
+    border: 1px solid rgba(182,138,224,0.2);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.technical-card:hover {
+    transform: translateY(-6px);
+    border-color: #B68AE0;
+    background: #291638;
+}
+
+.technical-number {
+    color: #B68AE0;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.technical-card h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.technical-card p {
+    color: #D8D1DF;
+    font-size: 12px;
+    line-height: 1.9;
+    margin-bottom: 17px;
+}
+
+.technical-card ul {
+    list-style: none;
+}
+
+.technical-card li {
+    color: #BDB2C6;
+    font-size: 11px;
+    padding: 7px 0;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.technical-card li::before {
+    content: "✓";
+    color: #B68AE0;
+    margin-right: 10px;
+}
+
+.experience-section {
+    max-width: 1050px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+.experience-content {
+    margin-bottom: 35px;
+}
+
+.experience-content > p:not(.small-title) {
+    color: #D8D1DF;
+    font-size: 13px;
+    max-width: 650px;
+}
+
+.experience-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 25px;
+    margin-bottom: 17px;
+    background: #1D1029;
+    border: 1px solid rgba(182,138,224,0.2);
+    border-radius: 10px;
+}
+
+.experience-icon {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #321344;
+    color: #B68AE0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.experience-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.experience-card p {
+    color: #D8D1DF;
+    font-size: 12px;
+    line-height: 1.9;
+}
+
+.professional-section {
+    padding: 75px 30px;
+    background: #100B16;
+}
+
+.professional-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.professional-item {
+    padding: 23px;
+    background: #1D1029;
+    border: 1px solid rgba(182,138,224,0.2);
+    border-radius: 9px;
+}
+
+.professional-item h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+
+.professional-item p {
+    color: #BDB2C6;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.career-section {
+    padding: 80px 25px;
+    text-align: center;
+    background: radial-gradient(
+        circle at center,
+        #321344,
+        #09070D 75%
+    );
+    border-top: 1px solid rgba(182,138,224,0.2);
+}
+
+.career-section h2 {
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.career-section > p:not(.small-title) {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #D8D1DF;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.career-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 22px;
+    background: #6D28A0;
+    color: white;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.career-btn:hover {
+    background: #8541B5;
+    transform: translateY(-3px);
+}
+
+/* SKILLS PAGE RESPONSIVENESS */
+
+@media (max-width: 850px) {
+
+    .skills-introduction {
+        grid-template-columns: 1fr;
+    }
+
+    .technical-skills-grid,
+    .professional-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .skills-introduction {
+        padding: 50px 22px;
+    }
+
+    .skills-intro-content h2 {
+        font-size: 26px;
+    }
+
+    .technical-skills-grid,
+    .professional-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .technical-skills-section,
+    .professional-section {
+        padding: 55px 20px;
+    }
+
+    .experience-section {
+        padding: 55px 20px;
+    }
+
+    .experience-card {
+        padding: 18px;
+    }
+
+    .career-section h2 {
+        font-size: 25px;
+    }
+
+}
