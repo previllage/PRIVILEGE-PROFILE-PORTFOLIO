@@ -1234,3 +1234,30 @@ footer {
     }
 
 }
+/* DITHETHO FAMILY CARE PROJECT */
+
+.dithetho-image {
+    background: linear-gradient(
+        135deg,
+        #1b102b,
+        #392052,
+        #100d16
+    );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.dithetho-image h2 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.dithetho-image p {
+    color: #d5c4ed;
+    letter-spacing: 2px;
+}
